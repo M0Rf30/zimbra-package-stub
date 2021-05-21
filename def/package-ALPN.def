@@ -1,0 +1,3 @@
+include $(DEF_ROOT)/package-apk.def
+
+PKG_APPEND.ALPN_64 := .alpn

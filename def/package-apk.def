@@ -1,0 +1,8 @@
+PKG_EXT := .apk
+
+PKG_BUILD := abuild -r
+PKG_EXTRACT := sudo apk add --allow-untrusted
+PKG_FORMAT := apk
+PKG_PURGE := sudo apk del
+PKG_DEV := dev
+PKG_LIB := lib

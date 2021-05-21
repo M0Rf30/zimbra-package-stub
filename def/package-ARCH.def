@@ -1,0 +1,4 @@
+include $(DEF_ROOT)/package-zst.def
+
+PKG_APPEND.ARCH_64 := .arch
+PKG_OS_TAG := urolling

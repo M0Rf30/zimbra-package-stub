@@ -1,0 +1,7 @@
+PKG_EXT := .pkg.tar.zst
+
+PKG_BUILD := makepkg -sf
+PKG_EXTRACT := sudo pacman -U --noconfirm
+PKG_PURGE := sudo pacman -R --noconfirm
+PKG_DEV := dev
+PKG_LIB := lib
